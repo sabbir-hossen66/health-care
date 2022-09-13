@@ -4,6 +4,7 @@ import Count from './Pages/Count/Count';
 import Exprience from './Pages/Exprience/Exprience';
 import Features from './Pages/Features/Features';
 import Home from './Pages/Home/Home';
+import Questions from './Pages/Questions/Questions';
 import Services from './Pages/Services/Services';
 
 import Navbar from './Pages/Shared/Navbar';
@@ -19,6 +20,7 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/exprience' element={<Exprience></Exprience>}></Route>
         <Route path='/features' element={<Features></Features>}></Route>
+        <Route path='/questions' element={<Questions></Questions>}></Route>
       </Routes>
     </div>
   );
