@@ -2,7 +2,7 @@ import React from 'react';
 
 const Count = () => {
     return (
-        <div className='flex justify-center justify-evenly sm:640px md:768px lg:1024px'>
+        <div className='my-9 flex justify-center justify-evenly sm:640px md:768px lg:1024px'>
             <div class="ml-10 stats stats-vertical lg:stats-horizontal shadow">
 
                 <div class="stat">

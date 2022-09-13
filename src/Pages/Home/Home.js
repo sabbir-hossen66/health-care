@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 import Count from '../Count/Count';
 import Exprience from '../Exprience/Exprience';
@@ -9,7 +10,8 @@ import Testmonial from '../Testmonial/Testmonial';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-sky-50'>
+
             <div className='bg-#90E2ED flex justify-center p-9'>
                 <div class="card lg:card-side bg-base-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/qM0313m/pic-1.jpg" alt="Album" /></figure>
@@ -26,14 +28,16 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             <Count></Count>
             <Services></Services>
             <Exprience></Exprience>
             <Features></Features>
             <Questions></Questions>
             <Testmonial></Testmonial>
+            <Blog></Blog>
             <Contact></Contact>
-        </div>
+        </div >
 
     );
 };
