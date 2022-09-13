@@ -6,6 +6,7 @@ import Features from './Pages/Features/Features';
 import Home from './Pages/Home/Home';
 import Questions from './Pages/Questions/Questions';
 import Services from './Pages/Services/Services';
+import Footer from './Pages/Shared/Footer';
 
 import Navbar from './Pages/Shared/Navbar';
 import Testmonial from './Pages/Testmonial/Testmonial';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/questions' element={<Questions></Questions>}></Route>
         <Route path='/testmonial' element={<Testmonial></Testmonial>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
