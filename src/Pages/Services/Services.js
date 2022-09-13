@@ -2,12 +2,12 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div>
+        <div className=''>
             <h2 className='text-center mt-8 text-xl text-purple-600 font-semibold'>Our Services</h2>
             <h1 className='text-center mt-2
             text-2xl font-semibold'>Services For Your Health</h1>
 
-            <div className='py-3 grid lg:grid-cols-2 gap-4  justify-self-center'>
+            <div className='py-3 grid lg:grid-cols-2 gap-2 justify-evenly items-center'>
                 <div class="ml-7 mt-6 card w-96 bg-base-100 shadow-xl ">
                     <div class="card-body">
                         <div class="card-actions justify-end">
