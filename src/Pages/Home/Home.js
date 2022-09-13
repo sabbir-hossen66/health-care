@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Count from '../Count/Count';
 import Exprience from '../Exprience/Exprience';
 import Features from '../Features/Features';
@@ -31,6 +32,7 @@ const Home = () => {
             <Features></Features>
             <Questions></Questions>
             <Testmonial></Testmonial>
+            <Contact></Contact>
         </div>
 
     );
