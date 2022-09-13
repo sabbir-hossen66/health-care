@@ -8,6 +8,7 @@ import Questions from './Pages/Questions/Questions';
 import Services from './Pages/Services/Services';
 
 import Navbar from './Pages/Shared/Navbar';
+import Testmonial from './Pages/Testmonial/Testmonial';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/exprience' element={<Exprience></Exprience>}></Route>
         <Route path='/features' element={<Features></Features>}></Route>
         <Route path='/questions' element={<Questions></Questions>}></Route>
+        <Route path='/testmonial' element={<Testmonial></Testmonial>}></Route>
       </Routes>
     </div>
   );
