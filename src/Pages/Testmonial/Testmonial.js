@@ -6,8 +6,8 @@ const Testmonial = () => {
             <div className=''>
                 <h2 className='text-xl justify-center  text-center text-purple-600'>Testimonial</h2>
                 <p className='text-2xl font-semibold justify-center  text-center'>What they say?</p>
-                <div className='flex justify-evenly items-center m-11'>
-                    <div>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 my-9 justify-center items-center'>
+                    <div className='ml-6'>
                         <h2 className='font-semibold'>David Jeams</h2>
                         <p className='font-semibold'>Pratient</p>
                         <div>

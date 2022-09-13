@@ -7,7 +7,7 @@ const Services = () => {
             <h1 className='text-center mt-2
             text-2xl font-semibold'>Services For Your Health</h1>
 
-            <div className='py-3 flex place-content-evenly '>
+            <div className='py-3 md:block lg:flex place-content-evenly items-center md:text-center md:items-center'>
                 <div class="ml-7 mt-6 card w-96 bg-base-100 shadow-xl">
                     <div class="card-body">
                         <div class="card-actions justify-end">

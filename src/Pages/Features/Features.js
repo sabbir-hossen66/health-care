@@ -2,14 +2,16 @@ import React from 'react';
 
 const Features = () => {
     return (
-        <div className='flex justify-evenly items-center my-9 sm:text-center'>
-            <div className='left'>
+        <div className='lg:flex justify-evenly items-center'>
+            <div className='grid justify-items-center'>
                 <img src="https://i.ibb.co/sRzNKWh/images.jpg" alt="" />
             </div>
             <div>
-                <h3 className='text-xl text-purple-500'>Our Hospital Feature eatures</h3>
-                <p className='text-2xl '>Make An Appointment Easy And Fast Services </p>
-                <div className='grid grid-cols-2 gap-4'>
+                <div className='text-center'>
+                    <h3 className='text-xl text-purple-500 '>Our Hospital Feature eatures</h3>
+                    <p className='text-2xl '>Make An Appointment Easy And Fast Services </p>
+                </div>
+                <div className='grid lg:grid-cols-2 gap-4 justify-center'>
                     {/* card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <div class="card-body">
