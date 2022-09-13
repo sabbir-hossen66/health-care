@@ -1,5 +1,7 @@
 import React from 'react';
 import Count from '../Count/Count';
+import Exprience from '../Exprience/Exprience';
+import Features from '../Features/Features';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -23,6 +25,8 @@ const Home = () => {
             </div>
             <Count></Count>
             <Services></Services>
+            <Exprience></Exprience>
+            <Features></Features>
         </div>
 
     );
