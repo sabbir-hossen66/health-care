@@ -1,5 +1,6 @@
 import React from 'react';
 import Count from '../Count/Count';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <Count></Count>
+            <Services></Services>
         </div>
 
     );
