@@ -24,8 +24,8 @@ const Contact = () => {
                         </span>
                         <h2 className='text-2xl font-bold text-orange-500'><BsTelephoneFill></BsTelephoneFill> Phone No</h2>
                         <span className=' font-semibold'>
-                            +4654264564876 <br />
-                            456789647895241
+                            +880 1783780066 <br />
+                            +880 1407941658
                         </span>
                     </div>
                     <div>
