@@ -8,7 +8,7 @@ const Features = () => {
             </div>
             <div>
                 <div className='text-center'>
-                    <h3 className='text-xl text-purple-500 '>Our Hospital Feature eatures</h3>
+                    <h3 className='text-xl text-purple-500 '>Our Hospital Feature</h3>
                     <p className='text-2xl '>Make An Appointment Easy And Fast Services </p>
                 </div>
                 <div className='grid lg:grid-cols-2 gap-4 justify-center'>
